@@ -1,5 +1,10 @@
 # D276 Assignment – HTML/CSS Portfolio
 
+To view the project:
+1. Extract the ZIP file.
+2. Open resume.html in a browser.
+3. Use the navigation links to view Cover Letter and Career Goals.
+
 This project contains three HTML pages styled with one external CSS file:
 
 - **resume.html** – Résumé with semantic tags, headings, table (4x3 with caption), list, hyperlinks, strong/em text, and JavaScript for the current date + console log
