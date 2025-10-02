@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Treysen Parkinson</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="hero" class="card">
+    <h1>Treysen <span class="muted">Example</span></h1>
+    <p>Junior Software Developer • Salt Lake City, UT</p>
+    <p>Email: <a href="mailto:treysen@example.com">treysen@example.com</a></p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="cover.html">Cover Letter</a></li>
+      <li><a href="goals.html">Career Goals</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Professional Summary</h2>
+      <p>
+        Curious, collaborative developer focused on <strong>accessible</strong>, 
+        <em>maintainable</em> web apps.<br />
+        Available for full-time roles starting Fall 2025.
+      </p>
+      <hr class="hr" />
+      <div id="current-date" class="muted">Today's Date: 10/1/2025</div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript / TypeScript</li>
+        <li>HTML & CSS</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <table>
+        <caption>Education Overview</caption>
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Program</th>
+            <th>Year</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>WGU</td>
+            <td>BS Computer Science</td>
+            <td>2025</td>
+            <td>Competency-based</td>
+          </tr>
+          <tr>
+            <td>Codecademy Online Courses</td>
+            <td>Web Development</td>
+            <td>2024</td>
+            <td>Projects in JS/HTML/CSS</td>
+          </tr>
+          <tr>
+            <td>High School</td>
+            <td>General Studies</td>
+            <td>2021</td>
+            <td>Diploma</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>References:</strong> All content is original.</p>
+    <p class="muted">© <span id="year"></span> Treysen Parkinson</p>
+  </footer>
+
+  <script>
+    // JS to populate the date
+    const dateDiv = document.getElementById('current-date');
+    const now = new Date();
+    dateDiv.textContent = "Today's Date: " + now.toLocaleDateString();
+
+    // Set footer year
+    document.getElementById('year').textContent = now.getFullYear();
+
+    // Console message
+    console.log("Resume loaded successfully on", now.toISOString());
+  </script>
+</body>
+</html>

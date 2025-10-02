@@ -1,0 +1,93 @@
+/* Global resets and base styles */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body { 
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+  line-height: 1.6; 
+  color: #1a1a1a; 
+  background-color: #f7fafc; /* background color */
+  padding: 1.5rem;
+}
+
+header, nav, main, footer, section, article { margin-bottom: 1.25rem; }
+
+/* Element selector */
+h1 { font-size: 2rem; color: #0f172a; }
+
+/* Typography examples */
+h2 { font-size: 1.5rem; color: #1e293b; }
+h3 { font-size: 1.25rem; color: #334155; font-style: italic; } /* font-style */
+
+p { margin: 0.5rem 0 1rem; }
+
+/* ID selector */
+#hero { 
+  background: white; 
+  border: 1px solid #e2e8f0; 
+  padding: 1rem; /* padding */
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Class selector */
+.btn { 
+  display: inline-block; 
+  border: 1px solid #0ea5e9; 
+  padding: 0.5rem 0.75rem; 
+  border-radius: 0.5rem; 
+  text-decoration: none; 
+  color: #0c4a6e; 
+  background: #e0f2fe; 
+  margin-right: 0.5rem;
+}
+
+/* Pseudo-class selector */
+a:hover { text-decoration: underline; }
+nav a:focus { outline: 2px dashed #0ea5e9; outline-offset: 2px; }
+input:focus, textarea:focus, select:focus { border-color: #0ea5e9; outline: none; }
+
+/* Descendant selector */
+nav ul li a { font-weight: 600; }
+
+/* Lists */
+ul, ol { margin: 0.5rem 0 1rem 1.25rem; }
+ul { list-style-type: square; }              /* list-style properties */
+ol { list-style-type: decimal-leading-zero; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 0.5rem 0 1rem; background: white; }
+caption { text-align: left; padding: 0.5rem; font-weight: 700; }
+th, td { border: 1px solid #cbd5e1; padding: 0.5rem; text-align: left; }
+thead th { background: #f1f5f9; }
+
+/* Utility */
+.card { background: white; border: 1px solid #e2e8f0; padding: 1rem; border-radius: 0.5rem; }
+.muted { color: #475569; }
+.hr { border: none; border-top: 1px solid #e2e8f0; margin: 1rem 0; } /* horizontal rule style example */
+
+/* Footer */
+footer { font-size: 0.9rem; color: #475569; border-top: 1px solid #e2e8f0; padding-top: 0.75rem; }
+
+/* Buttons */
+button, input[type="submit"] { 
+  border: 1px solid #0ea5e9; 
+  background: #e0f2fe; 
+  padding: 0.5rem 0.75rem; 
+  border-radius: 0.5rem; 
+  cursor: pointer; 
+}
+button:hover, input[type="submit"]:hover { filter: brightness(0.98); } /* pseudo-class */
+
+/* Media */
+img, video { max-width: 100%; height: auto; display: block; border-radius: 0.5rem; }
+audio { width: 100%; }
+
+/* Example of margin, padding, border on a block */
+blockquote { 
+  margin: 1rem 0; 
+  padding: 0.75rem 1rem; 
+  border-left: 4px solid #0ea5e9; 
+  background: #f0f9ff; 
+}
