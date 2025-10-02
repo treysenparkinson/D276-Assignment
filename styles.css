@@ -91,3 +91,10 @@ blockquote {
   border-left: 4px solid #0ea5e9; 
   background: #f0f9ff; 
 }
+
+/* Only images inside the first media/vision section on goals page */
+section.card img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
