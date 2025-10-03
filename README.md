@@ -19,6 +19,6 @@ Open `resume.html` in a browser and use the navigation links to switch between p
 Put your images in the `image/` folder and audio/video in `media/`.
 
 ## Sources
-All page text is original. If you use third-party media, add attribution in the footer of each page.
+All page text and images are original. Audio from uppbeat.io. Video from freepik.com.
 
 ---
