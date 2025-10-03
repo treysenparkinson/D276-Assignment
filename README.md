@@ -16,7 +16,7 @@ This project contains three HTML pages styled with one external CSS file:
 Open `resume.html` in a browser and use the navigation links to switch between pages.
 
 ## Media
-Put your images in the `image/` folder and audio/video in `media/`.
+Put your images in the `image/` folder, audio file is in `audio/`, and video file is in `videos/`
 
 ## Sources
 All page text and images are original. Audio from uppbeat.io. Video from freepik.com.
